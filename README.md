@@ -5,6 +5,7 @@
 Welcome to GeeksforGeeks Structured Coding Solutions, a well-organized and professional repository that serves as a learning resource for coding enthusiasts, interview preparation, and competitive programming. This project is designed to provide optimized solutions, detailed explanations, and time complexity analysis for various coding problems in a structured manner.
 
 🚀 Our Goal:
+
 ✔️ **Solve GeeksforGeeks** problems in a structured format.
 
 ✔️ **Provide clean and optimized code** with explanations.
@@ -16,6 +17,7 @@ Welcome to GeeksforGeeks Structured Coding Solutions, a well-organized and profe
 ✔️ **Expand with more topics & problems over time.**
 
 📂 Repository Structure
+
 Currently, we are focusing on Array problems and have categorized them by difficulty level:Basic,Easy,Medium.
 📂 GeeksforGeeks-Solutions  
 │── 📂 Arrays  
@@ -33,6 +35,7 @@ Currently, we are focusing on Array problems and have categorized them by diffic
 │    │    └── ...
 
 ✅ Each problem has its own .md file, containing:
+
 🔹 📌 Problem Statement
 
 🔹 💻 Code Implementation (Java)
@@ -42,6 +45,7 @@ Currently, we are focusing on Array problems and have categorized them by diffic
 🔹 ⏳ Time & Space Complexity Analysis
 
 🚀 How to Use This Repository?
+
 🔹 Select the Arrays topic.
 
 🔹 Choose the difficulty level (Basic, Easy, Medium).
@@ -53,6 +57,7 @@ Currently, we are focusing on Array problems and have categorized them by diffic
 🔹 Run the code and test it in your IDE.
 
 📌 Current Progress
+
 ✅ 50 Array Problems Added (Basic, Easy, Medium)
 
 ✅ Well-structured repository for revision.
