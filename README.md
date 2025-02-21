@@ -19,6 +19,7 @@ Welcome to GeeksforGeeks Structured Coding Solutions, a well-organized and profe
 📂 Repository Structure
 
 Currently, we are focusing on Array problems and have categorized them by difficulty level:Basic,Easy,Medium.
+
 📂 GeeksforGeeks-Solutions  
 │── 📂 Arrays  
 │    ├── 📂 Basic  
