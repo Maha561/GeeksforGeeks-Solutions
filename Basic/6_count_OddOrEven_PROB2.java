@@ -1,12 +1,8 @@
 /*Question : Given an array arr[]. 
 The task is to find the number of odd and even elements in the array.*/
-
 class Solution {
     public static void countOddEven(Integer arr[]) {
         
-        
-        
-
         int countEven =0;
         int countOdd =0;
         for(int i =0;i<arr.length;i++){
@@ -55,6 +51,5 @@ For an array of size n, it takes O(n) time. 🔄
 Uses constant space — just two counters (countOdd 🔴 and countEven 🔵).
 No extra space that scales with input.
 ✅ Total Space Complexity: O(1) 🎯 */
-
 
 // GFG links : https://www.geeksforgeeks.org/problems/count-odd-even-java/0  

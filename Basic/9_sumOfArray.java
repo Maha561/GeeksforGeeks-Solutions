@@ -1,10 +1,6 @@
 // Questions : You are given an integer array arr[]. 
 //The task is to find the sum of it.
-
-
-
 // User function Template for Java
-
 class Solution {
     int sum(int arr[]) {
         int sum=0;
@@ -53,5 +49,4 @@ Each element is processed exactly once.
 Uses only a single integer sum for accumulation.
 No extra space dependent on input size.
 ✅ Total Space Complexity: O(1) 🎯 */
-
 //GFG Links  : https://www.geeksforgeeks.org/problems/sum-of-array2326/0   

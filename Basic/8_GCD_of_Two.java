@@ -1,11 +1,6 @@
 // Question : Given two positive integers a and b, find GCD of a and b.
 
 //Note: Don't use the inbuilt gcd function
-
-
-
-
-
 class Solution {
     public static int gcd(int a, int b) {
         if(b==0){
@@ -51,6 +46,4 @@ Uses recursive calls, leading to a call stack depth of O(log min(a, b)).
 ✅ Total Space Complexity: O(log min(a, b)) (due to recursion)
 
  */
-
-
  // GFG Links : https://www.geeksforgeeks.org/problems/gcd-of-two-numbers3459/0  

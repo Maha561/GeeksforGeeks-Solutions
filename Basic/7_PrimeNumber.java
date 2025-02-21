@@ -1,9 +1,6 @@
 /* Question - Given a number n, determine whether it is a prime number or not. 
 A prime number is a number greater than 1 
 that has no positive divisors other than 1 and itself. */
-
-
-
 class Solution {
     static boolean isPrime(int n) {
         int i=2;
@@ -57,5 +54,4 @@ No additional space that scales with input.
 ✅ Total Space Complexity: O(1) 🚀
 
  */
-
  //GFG links : https://www.geeksforgeeks.org/problems/prime-number2314/0  

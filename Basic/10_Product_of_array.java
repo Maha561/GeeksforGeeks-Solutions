@@ -1,18 +1,9 @@
 /* Question : Given an array, arr[] of positive integers.
  Your task is to return the product of array elements under
   the given modulo, mod with the value of 1000000007.
-
 Note: The modulo operation finds the remainder after the division 
 of one number by another. 
 For example, k(mod(m))=k%m= remainder obtained when k is divided by m */
-
-
-
-// User function Template for Java
-
-/*
-     arr[] is the array
-*/
 class Solution {
     public static long product(long arr[]) {
         long  n=arr.length;
@@ -83,5 +74,4 @@ Array with Zero: Any zero in the array will result in a product of 0.
 ✅ Overflow-safe using modulo
 ✅ Space-optimized (O(1)) 
 */
-
 // GFG link :https://www.geeksforgeeks.org/problems/product-of-array-element/0  
