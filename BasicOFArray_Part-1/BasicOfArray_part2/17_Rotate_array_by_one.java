@@ -28,17 +28,12 @@ Shifting Elements: 🔄
 
 Loop from i = n - 1 down to 1:
 Shift each element one position to the right:
-Copy
-Edit
 arr[i] = arr[i - 1];
 Placing Last Element: 🔙
 
 Set arr[0] = last to place the saved last element at the front. 🚀
 📊 Example Run: 🚀
 Input:
-java
-Copy
-Edit
 arr = {1, 2, 3, 4, 5}
 Process:
 Save last element: last = 5
@@ -50,8 +45,6 @@ arr[1] = arr[0] → {1, 1, 2, 3, 4}
 Insert last element:
 arr[0] = 5 → {5, 1, 2, 3, 4}
 Output:
-Copy
-Edit
 {5, 1, 2, 3, 4}
 ⚡ Time Complexity: ⏱
 The loop runs n - 1 times to shift elements.

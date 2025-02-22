@@ -43,19 +43,15 @@ End of Function: ✅
 The function doesn’t print a newline at the end. Depending on the use case, adding System.out.println(); after the loop could be beneficial.
 📊 Example Run: 🚀
 Input:
-java
-Copy
-Edit
+
 arr = {1, 2, 3, 4, 5}
 Current Output:
-Copy
-Edit
+
 1 2 3 4 5  
 (Note: An extra space appears at the end.)
 
 Expected Output:
-Copy
-Edit
+
 1 2 3 4 5
 ⚡ Time Complexity: ⏱
 The loop runs through n elements once.
@@ -74,9 +70,7 @@ Single Element Array: Should print the element without an extra space.
 Optional Enhancement: 💡
 
 Add a newline at the end for better output formatting:
-java
-Copy
-Edit
+
 System.out.println();
 🎯 Final Verdict:
 ✅ Efficient (O(n))

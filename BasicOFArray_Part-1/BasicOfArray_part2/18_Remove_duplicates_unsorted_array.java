@@ -34,17 +34,12 @@ Logic: 🔄
 
 Create a LinkedHashSet<Integer> named unique.
 Iterate through each num in arr:
-pgsql
-Copy
-Edit
+
 unique.add(num);  
 Duplicate values are ignored by the set.
 Convert unique into an ArrayList and return. 🚀
 📊 Example Run: 🚀
 Input:
-java
-Copy
-Edit
 arr = {1, 2, 3, 2, 4, 3, 5}
 Process:
 Adding to LinkedHashSet:
@@ -56,9 +51,6 @@ Add 4 → {1, 2, 3, 4}
 Add 3 → (ignored)
 Add 5 → {1, 2, 3, 4, 5}
 Output:
-csharp
-Copy
-Edit
 [1, 2, 3, 4, 5]
 ⚡ Time Complexity: ⏱
 Inserting n elements into a LinkedHashSet takes O(1) on average per insertion.
@@ -84,3 +76,4 @@ Manual implementation using a HashMap or boolean array (for known ranges) is pos
 ✅ Maintains original order
 ✅ Simple and clean approach using built-in Java collections
 GFG LINK : https://www.geeksforgeeks.org/problems/remove-duplicates-from-unsorted-array4141/0 */ 
+

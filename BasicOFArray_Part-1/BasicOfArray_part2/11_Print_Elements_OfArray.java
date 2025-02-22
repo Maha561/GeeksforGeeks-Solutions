@@ -43,13 +43,10 @@ End of Function: ✅
 No newline is explicitly added, assuming the function is called in an environment where output is managed.
 📊 Example Run: 🚀
 Input:
-java
-Copy
-Edit
+
 arr = {1, 2, 3, 4, 5}
 Output (Expected):
-Copy
-Edit
+
 1 2 3 4 5
 ⚡ Time Complexity: ⏱
 The loop iterates through all n elements.
@@ -69,3 +66,4 @@ Single Element: Should print the element without an extra space.
 ✅ Space-optimized (O(1))
 ✅ Handles edge cases properly
 GFG LINKS : https://www.geeksforgeeks.org/problems/print-elements-of-array4910/0 */  
+

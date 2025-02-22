@@ -40,9 +40,7 @@ If arr[i] == x, return the index i immediately. ✅
 If the loop completes without finding x, return -1 to indicate that the element isn't present. ❌
 📊 Example Run: 🚀
 Input:
-java
-Copy
-Edit
+
 arr = {4, 2, 7, 1, 9}, x = 7  
 Process:
 Start iterating:
@@ -50,8 +48,6 @@ i = 0 → arr[0] = 4 (not 7)
 i = 1 → arr[1] = 2 (not 7)
 i = 2 → arr[2] = 7 (match found) ✅
 Output:
-Copy
-Edit
 2
 ⚡ Time Complexity: ⏱
 In the worst case, the loop checks all n elements.
@@ -76,3 +72,4 @@ For sorted arrays, a binary search (O(log n)) could be more efficient.
 ✅ Space-optimized (O(1))
 ✅ Handles edge cases properly
  GFG LINK :https://www.geeksforgeeks.org/problems/search-an-element-in-an-array-1587115621/0 */ 
+ 

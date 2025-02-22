@@ -28,16 +28,10 @@ Return: 🔙
 Returns the lowercase version of the input string. ✅
 📊 Example Run: 🚀
 Input:
-java
-Copy
-Edit
 s = "Hello World!"
 Process:
 s.toLowerCase() converts all uppercase letters to lowercase.
 Output:
-arduino
-Copy
-Edit
 "hello world!"
 ⚡ Time Complexity: ⏱
 Java’s toLowerCase() iterates through all n characters.

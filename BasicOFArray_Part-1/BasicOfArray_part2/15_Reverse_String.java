@@ -34,13 +34,9 @@ Return: 🔙
 The method returns reversedString.
 📊 Example Run: 🚀
 Input:
-java
-Copy
-Edit
 s = "hello"
 Process:
 Iterates from end to start:
-
 i = 4 → o
 i = 3 → l
 i = 2 → l
@@ -49,9 +45,6 @@ i = 0 → h
 Reversed String: " olleh" (⚠️ leading space due to initialization)
 
 Output:
-arduino
-Copy
-Edit
 " olleh"
 ⚡ Time Complexity: ⏱
 The loop iterates through all n characters.
@@ -69,7 +62,6 @@ String Concatenation Efficiency: 🚀
 Repeated string concatenation (reversedString + s.charAt(i)) can be inefficient.
 Alternative: Use StringBuilder for better performance.
 Edge Cases: ⚠️
-
 Empty String: Should return an empty string.
 Single Character: Should return the same character.
 🎯 Final Verdict:
