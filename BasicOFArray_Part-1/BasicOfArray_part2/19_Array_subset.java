@@ -37,17 +37,15 @@ Logic: 🔄
 Step 1: Build Frequency Map for a[]
 
 java
-Copy
-Edit
+
+
 for(int num : a) {
     subset.put(num, subset.getOrDefault(num, 0) + 1);
 }
 Adds each element from a[] to subset with its count.
 Step 2: Verify b[] as Subset
 
-java
-Copy
-Edit
+
 for(int num : b) {
     if(!subset.containsKey(num) || subset.get(num) == 0) {
         return false;
@@ -62,17 +60,13 @@ Return Result:
 If all elements of b[] are found in a[], return true. ✅
 📊 Example Run: 🚀
 Input:
-java
-Copy
-Edit
+
 a = {1, 2, 3, 4, 5}  
 b = {2, 4, 5}
 Process:
 Frequency Map of a[]:
 
-css
-Copy
-Edit
+
 {1:1, 2:1, 3:1, 4:1, 5:1}
 Checking Elements of b[]:
 
@@ -80,9 +74,7 @@ Checking Elements of b[]:
 4 found → decrement count → {1:1, 2:0, 3:1, 4:0, 5:1}
 5 found → decrement count → {1:1, 2:0, 3:1, 4:0, 5:0}
 Output:
-arduino
-Copy
-Edit
+
 true
 ⚡ Time Complexity: ⏱
 Building HashMap: O(n) — where n is the size of array a[].
