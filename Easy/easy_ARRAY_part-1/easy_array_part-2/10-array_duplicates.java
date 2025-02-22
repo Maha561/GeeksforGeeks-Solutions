@@ -52,7 +52,7 @@ System.out.println(findDuplicates(arr));
 2 and 3 are duplicates. ✅
 Example 2:
 int[] arr = {1, 1, 1, 2, 2, 3};  
-System.out.println(findDuplicates(arr));  
+System.out.println(findDuplicates(arr));    
 // Output: [1, 1, 2]   
 Handles multiple duplicates.  
 Returns all repeated instances.🎯
